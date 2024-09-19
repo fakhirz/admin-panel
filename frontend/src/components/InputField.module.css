@@ -1,0 +1,75 @@
+.multipleSelect {
+    width: 130px;
+  }
+  
+  .selectBox {
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: auto;
+  }
+  
+  .selectionBox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #multipleCheckbox {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    border: 1px solid;
+    -webkit-transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    -moz-transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    -ms-transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    -o-transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+  
+  #multipleCheckbox.open {
+    max-height: 200px;
+    padding: 10px;
+  }
+  
+  #multipleCheckbox label {
+    display: block;
+  }
+  
+  #multipleCheckbox label:hover {
+    background-color: #42ecf5;
+  }
+  
+  .optionDiv {
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 5px;
+    padding: 9px;
+    max-height: 115px;
+    overflow: scroll;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+  
+  .optionSpan {
+    margin-left: 5px;
+  }
+  
+  .optionLabel {
+    padding: 1px 5px;
+    width: 100%;
+    transition-duration: 0.3s;
+    /* transition-delay: .1s; */
+  }
+  
+  .optionLabel:hover {
+    padding: 0px 5px;
+    background-color: #fffcf5;
+    border: 1px solid rgb(236, 203, 154);
+    border-radius: 3px;
+  }
+  
